@@ -1,0 +1,26 @@
+.division {
+  float: left;
+  width: 320px;
+  margin-left: 10px;
+}
+
+#serector {
+margin: auto;
+  overflow: hidden;
+}
+
+.characters01 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 130px;
+}
+
+.characters02 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.umi {
+  padding-bottom: 20px;
+}

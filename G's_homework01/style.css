@@ -1,0 +1,581 @@
+html {
+    height: 100%;
+    background-color: #F1F1F1;
+}
+
+body {
+  height: 100%;
+  font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+}
+
+body > #container {
+    height: auto;
+}
+
+#container {
+    min-height: 100%;
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color: green;*/
+}
+header {
+    overflow: hidden;
+    background-color: white;
+}
+
+header .left {
+    font-size: 70px;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background-color: pink;*/
+    float: left;
+    width: 200px;
+}
+header .center {
+    padding-top: 22px;
+    padding-bottom: 23px;
+    font-size: 20px;
+    /*background-color: orange;*/
+    float: left;
+    width: 580px;
+}
+header .right {
+    padding-top: 21px;
+    padding-bottom: 22px;
+    margin-right: 20px;
+    /*background-color: purple;*/
+    float: left;
+    width: 180px;
+}
+
+header .right ul>li {
+  text-align: right;
+  font-size: 5px;
+}
+
+ div > .img {
+width: 100%;
+height: 600px;
+background-image: url('../img/bg-cheese02.jpg');
+background-size:cover;
+text-align: center;
+color: #fff;
+}
+div > .img :first-child {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 180px;
+}
+div > .img :nth-child(2) {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#news {
+  height: 400px;
+  background-color: white;
+}
+#news h1 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 60px;
+  color: #FFD13D;
+
+}
+
+#news h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+
+#news dt{
+  /*background-color : #90EE90;*/
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 10px;
+  width : 150px;
+  position: relative;
+  left: 150px;
+/* 左寄せ */
+  float : left;
+/* float解除 */
+  clear : both;
+}
+
+#news dd{
+  /*background-color : #A9A9A9;*/
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+  width : 400px;
+/* dtの幅分の設定 */
+  margin-left : 160px;
+  position: relative;
+  top: -3.5px;
+  left: 130px;
+}
+
+#news span {
+  position: relative;
+  left: 700px;
+  top: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+div .main-feature{
+  overflow: hidden;
+  background-color: #FED538;
+}
+
+div .sub-feature {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    height: 150px;
+}
+
+div .sub-feature h1{
+  font-size: 20px;
+  color: white;
+}
+
+div .sub-feature-image {
+  position: relative;
+  left: 125px;
+  height: 270px;
+}
+div .img01 {
+  float : left;
+  width: 280px;
+}
+
+div .img02 {
+  float : left;
+  width: 280px;
+}
+
+div .img03 {
+  float : left;
+  width: 280px;
+}
+
+div .main-cource {
+  overflow: hidden;
+  background-color: white;
+}
+
+div > .cource {
+  width: 100%;
+  height: 200px;
+  background-color: #FCFCFC;
+  text-align: center;
+  /*padding-top: 90px;*/
+}
+
+div > .cource :first-child {
+  position: relative;
+  top: 70px;
+  font-size: 25px;
+}
+div > .cource :nth-child(2) {
+  position: relative;
+  top: 80px;
+  font-size: 15px;
+}
+
+div > .top-left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  /*background-color: green;*/
+}
+
+div > .top-right {
+  float: left;
+  width: 50%;
+  height: 250px;
+  /*background-color: pink;*/
+}
+
+div > .bottom-left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  /*background-color: blue;*/
+}
+
+div > .bottom-right {
+  float: left;
+  width: 50%;
+  height: 250px;
+  /*background-color: red;*/
+}
+
+div > .top-left > .kkk {
+  text-align: center;
+  margin-top:50px;
+  margin-left:120px;
+  width: 350px;
+  height: 200px;
+  background-color: #FFD13D;
+}
+
+div > .top-left > .kkk > h2,p {
+  position: relative;
+  top: 70px;
+  color: white;
+}
+
+div > .top-left > .kkk > h2 {
+  font-size: 40px;
+}
+
+#lab1 {
+  text-align: center;
+  position: relative;
+  right: 40px;
+}
+
+#lab1 > h3 {
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+}
+
+#lab1 > ul {
+  position: relative;
+  top: 70px;
+  font-size: 12px;
+}
+
+#academy {
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+
+#academy > h3 {
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+}
+
+#academy > ul {
+  position: relative;
+  top: 70px;
+  font-size: 12px;
+}
+
+div > .bottom-right > .ccc {
+  text-align: center;
+  margin-top:30px;
+  margin-left:40px;
+  width: 350px;
+  height: 200px;
+  background-color: #737373;
+}
+
+div > .bottom-right > .ccc > h2,p {
+  position: relative;
+  top: 70px;
+  color: white;
+}
+
+div > .bottom-right > .ccc > h2 {
+  font-size: 40px;
+}
+
+div .top-gallery{
+  text-align: center;
+  /*position: relative;
+  top: 80px;*/
+  padding-top: 80px;
+  height: 120px;
+  background-color: #FFD13D;
+}
+
+div .top-gallery h1 {
+  font-size: 25px;
+}
+
+div .top-gallery h2 {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+
+div .content-gallery {
+  overflow: hidden;
+  background-color: white;
+}
+
+div .row01 {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  padding-top: 50px;
+}
+
+div .row02 {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  padding-top: 105px;
+}
+
+div .row03 {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  padding-top: 105px;
+  padding-bottom: 150px;
+}
+
+div .ga01 {
+  float: left;
+  width: 25%;
+}
+
+div .ga02 {
+  float: left;
+  width: 25%;
+}
+
+div .ga03 {
+  float: left;
+  width: 25%;
+}
+
+div .ga04 {
+  float: left;
+  width: 25%;
+}
+
+div .ga05 {
+  float: left;
+  width: 25%;
+}
+
+div .ga06 {
+  float: left;
+  width: 25%;
+}
+
+div .ga07 {
+  float: left;
+  width: 25%;
+}
+
+div .ga08 {
+  float: left;
+  width: 25%;
+}
+
+div .ga09 {
+  float: left;
+  width: 25%;
+}
+
+div .ga10 {
+  float: left;
+  width: 25%;
+}
+
+div .ga11 {
+  float: left;
+  width: 25%;
+}
+
+div .ga12 {
+  float: left;
+  width: 25%;
+}
+
+div .top-form{
+  text-align: center;
+  /*position: relative;
+  top: 80px;*/
+  padding-top: 80px;
+  height: 120px;
+  background-color: #FFD13D;
+}
+
+div .top-form h1 {
+  font-size: 25px;
+}
+
+div .top-form h2 {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+
+form .contents-form {
+  position: relative;
+  left: 30px;
+  background-color: white;
+}
+
+.contents-form dt{
+  /*background-color : #90EE90;*/
+  padding-top : 10px;
+  padding-bottom : 30px;
+  padding-left : 10px;
+  width : 150px;
+  position: relative;
+  left: 150px;
+/* 左寄せ */
+  float : left;
+/* float解除 */
+  clear : both;
+}
+
+.contents-form dd{
+  /*background-color : #A9A9A9;*/
+  padding-top : 12px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 30px;
+  width : 400px;
+/* dtの幅分の設定 */
+  margin-left : 160px;
+  position: relative;
+  /*top: -1.5px;*/
+  left: 130px;
+}
+
+#ddd {
+  background-color: white;
+  width: 100%;
+}
+
+#ddd .contents-form {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+ul.ooo > li {
+  padding-bottom: 15px;
+}
+
+#button {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 200px;
+}
+
+div.top-info {
+  text-align: center;
+  /*position: relative;
+  top: 80px;*/
+  padding-top: 80px;
+  height: 120px;
+  background-color: #4D4D4D;
+}
+
+div.top-info h1 {
+  font-size: 25px;
+  color: white;
+}
+
+div.top-info h2 {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+
+div.bottom-info {
+  background-color: #4D4D4D;
+  width: 1000px;
+  height: 340px;
+}
+
+div.text {
+  margin-top: -50px;
+}
+
+div.info-image {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+div.info01 {
+  float: left;
+  width: 250px;
+  background-color: white;
+}
+
+div.info02 {
+  float: left;
+  width: 280px;
+  position: relative;
+  left: 15px;
+  background-color: white;
+}
+
+div.info03 {
+  float: left;
+  width: 250px;
+  position: relative;
+  left: 30px;
+  background-color: white;
+}
+
+/*div.return {
+  margin-top: 35px;
+  float: right;
+  width: 150px;
+}*/
+
+.page-top
+{
+	margin: 0 ;
+	padding: 0 ;
+}
+
+.page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+
+	position: fixed;
+  top: 550px;
+	right: 120px ;
+
+  display: none;
+}
+
+.move-page-top
+{
+	/*display: block ;
+	background: #D36015 ;
+	width: 50px ;
+	height: 50px ;
+
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;*/
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}
