@@ -52,6 +52,11 @@ title module
 .bg-yellow{
     background-color:#ffd61a;
 }
+
+.bg-orange{
+    background-color:#F1A63F;
+}
+
 /*cource-title*/
 .cource-title{
     margin-bottom: 27px;
@@ -124,7 +129,7 @@ block-module
 }
 .feature{
     padding:56px 0 48px;
-    background-color:#ffd61a;
+    background-color:#EE5DAE;
 }
 .news-detail{
     width:600px;
@@ -141,7 +146,7 @@ main_visual-module
 ----------------------*/
 .main_visual{
     padding:300px 0 0;
-    background:url(../img/bg-cheese.jpg) no-repeat;
+    background:url(../img/background01.jpg) no-repeat;
     background-size: cover;
     height:460px;
 }
