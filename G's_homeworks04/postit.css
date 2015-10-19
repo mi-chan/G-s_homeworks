@@ -1,0 +1,125 @@
+@font-face {
+   font-family: MyWebFont;
+   src: url('uzura.ttf') format("opentype");
+}
+
+select,input:focus {
+  outline: 0;
+}
+
+.sticky01,.sticky02,.sticky03,.sticky04,.sticky05,.sticky06,.sticky07,.sticky08,.sticky09,.sticky10,.sticky11,.sticky12 {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 5px;
+}
+
+.button {
+	background-color: #00526b;
+	color: #fff;
+  margin-left: 30px;
+  padding:15px 30px 15px 30px;
+  border-radius: 20px;
+}
+
+.button:hover {
+	letter-spacing: 5px;
+}
+
+#color {
+  font-size: 32px;
+}
+
+#maki {
+  /*display:inline-block;*/
+  margin-left: 700px;
+  margin-top: -250px;
+}
+
+li a {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
+.selected {
+  border-color: #f44;
+}
+
+.tab-height {
+  height: 635px;
+}
+
+.uzura {
+  font-family: MyWebFont;
+}
+
+#tabdemo1.ui-tabs {
+	padding: 0;
+	border-width: 0;
+}
+
+#tabdemo1 .ui-widget-header {
+	border: 0;
+}
+
+#tabdemo1 .ui-tabs-nav {
+	border-width: 0;
+	padding: 0;
+}
+
+#tabdemo1 .ui-tabs-panel {
+	border-width: 5px;
+}
+
+#tabdemo1 .ui-tabs-nav li.ui-tabs-selected {
+	border-width: 5px;
+	margin-bottom: -5px;
+}
+
+.fbox {
+    visibility: hidden;
+    width:300px;
+    height: 100px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    /*display:inline-block;*/
+    padding:10px ;
+    margin-top: 100px;
+    /*margin-left: 500px;*/
+    text-align:left;
+    background-color:#ffffff;
+    border:5px solid #e4007f;
+    margin: 20px 10px 20px 20px;
+    border-radius: 5px ;
+}
+.fbox:after, .fbox:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.fbox:after {
+    top: 8px;
+    right: -25px;
+    border: 15px solid transparent;
+    border-left: 20px solid #ffffff; /*13px*/
+}
+.fbox:before {
+    top: 13px;
+    right: -25px;
+    border: 10px solid transparent;
+    border-left: 10px solid #e4007f; /*10px*/
+}
+.fbox > p {
+  font-family: MyWebFont;
+  font-size: 30px;
+}

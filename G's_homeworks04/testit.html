@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="postit.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<title>色と位置をlocalStorageに保存できる付箋</title>
+</head>
+<body>
+  <div style='clear:both;' id="tabdemo1">
+    <ul>
+      <li><a href="#tab-test01">test01</a></li>
+      <li><a href="#tab-test02">test02</a></li>
+      <li><a href="#tab-test03">test03</a></li>
+    </ul>
+  <div id = "tab-test01">
+    <select id="color">
+    <option value="#ffc">黄色</option>
+    <option value="#fcc">赤色</option>
+    <option value="#cfc">緑色</option>
+    </select>
+    <input id="new01" type="button" value="new">
+    <input id="del01" type="button" value="del">
+    <div><img src = "img/maki02.gif" width = "600px"></div>
+  </div>
+  <div id = "tab-test02">
+    <select id="color">
+    <option value="#ffc">黄色</option>
+    <option value="#fcc">赤色</option>
+    <option value="#cfc">緑色</option>
+    </select>
+    <input id="new02" type="button" value="new">
+    <input id="del02" type="button" value="del">
+    <div><img src = "img/maki02.gif" width = "600px"></div>
+  </div>
+  <div id = "tab-test03">
+    <select id="color">
+    <option value="#ffc">黄色</option>
+    <option value="#fcc">赤色</option>
+    <option value="#cfc">緑色</option>
+    </select>
+    <input id="new03" type="button" value="new">
+    <input id="del03" type="button" value="del">
+    <div><img src = "img/maki02.gif" width = "600px"></div>
+  </div>
+<script src="testit.js"></script>
+</body>
+</html>

@@ -3,31 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/sample.css">
-<title>じゃんけん</title>
+<link href="css/hover-min.css" rel="stylesheet" media="all">
+<title>ぐんかんじゃんけん</title>
 </head>
 <body>
 
-<header>
-  <h1>じゃんけん</h1>
+<header class ="lano">
+  <h1 id = "title">ぐんかんじゃんけん</h1>
 </header>
 
 <main>
-  <ul>
-    <li id="gu_btn"><button type = "button" name = "ja" value = "グー">グー</li>
-    <li id="cho_btn"><button type = "button" name = "ja" value = "チョキ">チョキ</li>
-    <li id="par_btn"><button type = "button" name = "ja" value = "パー">パー</li>
-  </ul>
-  <div id="pc">コンピュータの出した手は？</div>
-  <div id="hand">ここに表示されます</div>
-  <div id="boss">主導権は誰が？</div>
-  <div id="M_point">自分の得点</div>
-  <div id="O_point">相手の得点</div>
+  <section id = "battle">
+    <div class = "guchipa">
+        <div id="gu_btn" class="hvr-buzz-out"><input type = "image" style="border:none" src="img/goo.png" name = "ja" value = "グー" width = "130px"></div>
+        <div id="cho_btn" class="hvr-buzz-out"><input type = "image" style="border:none" src="img/choki.png" name = "ja" value = "チョキ" width = "130px"></div>
+        <div id="par_btn" class="hvr-buzz-out"><input type = "image" style="border:none" src="img/paa.png" name = "ja" value = "パー" width = "130px"></div>
+    </div>
+    <div class = "hand">
+      <div id="a"><input type = "image" style="border:none" src="img/goo.png" name = "ja" value = "グー" width = "120px"></div>
+      <div id="b"><input type = "image" style="border:none" src="img/choki.png" name = "ja" value = "チョキ" width = "120px"></div>
+      <div id="c"><input type = "image" style="border:none" src="img/paa.png" name = "ja" value = "パー" width = "120px"></div>
+    </div>
+    <div id = "GIF">
+      <!-- <img src="img/paa.gif"> -->
+    </div>
+  </section>
 
+  <section id = "bottoms">
+    <!-- <div id="pc">コンピュータの出した手は？</div>
+    <div id="hand">ここに表示されます</div>
+    <div id="boss">主導権は誰が？</div> -->
 
+    <div id = "points" class = "lano">
+      <table>
+        <tr>
+            <td class="form-text">自分の得点</td>
+            <td id="M_point">0</td>
+        </tr>
+        <tr>
+            <td class="form-text">相手の得点</td>
+            <td id="O_point">0</td>
+        </tr>
+      </table>
+      <!-- <div id="M_point">自分の得点</div>
+      <div id="O_point">相手の得点</div> -->
+    </div>
+    <div id = "fuki" class = "fbox lano">
+      <div id = "explanation"><p><input type = "button" name = "button" value = "ルール説明" class = "button lano"></p></div>
+      <div id = "next"></div>
+    </div>
+    <div id = "HONO">
+      <img src = "img/icon.png">
+    </div>
+  </section>
 </main>
 
-<footer></footer>
+<!-- <footer></footer> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="jan.js"></script>
 </body>

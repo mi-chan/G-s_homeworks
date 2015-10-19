@@ -1,43 +1,179 @@
+@font-face {
+   font-family: MyWebFont;
+   src: url('fonts/ラノベPOP.otf') format("opentype");
+}
+
 body{
     margin:0;
     padding:0;
-    text-align:left;
-    font-size: 32px;
+    /*text-align:left;*/
+    /*font-size: 32px;*/
+    /*background-image: url("../img/back.jpg");*/
+    /*background-size:cover;*/
+
 }
+
+input:focus {
+  outline: 0;
+}
+
 header{
-    background-color: #fff;
+    background-color: #e4007f;
+    font-size: 50px;
+    font-family: MyWebFont;
     border-bottom: 1px solid #ccc;
     text-align: center;
+    color: #FFF;
+}
+
+header h1 {
+  display:none;
+  font-size: 50px;
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 main{
-    border-bottom:1px solid #ccc;
+    background-image: url("../img/back.jpg");
+    height: 600px;
+    /*border-bottom:1px solid #ccc;*/
 }
-footer{
-    background-color: #fff;
-    border-bottom:1px solid #ccc;
-    text-align: center;
+#bottoms {
+  overflow:hidden;
 }
-p{
-    font-size:200%;
-    text-align: center;
-    border-bottom:1px solid #fff;
-    height:200px;
+
+#battle {
+  overflow:hidden;
+  text-align: center;
 }
-ul{
-    padding: 0;
-    border-top: 1px solid #000000;
-    display:table;  /* 定義 */
-    table-layout: fixed;
-    width:100%;
+
+.guchipa {
+  float:left;
+  width: 20%;
+  /*background-color: pink;*/
+
 }
-li{
-    list-style-type:none;
-    border: 1px solid #666;
-    background-color: #FFF;
-    display:table-cell;  /* 定義 */
-    cursor: pointer;
+
+.hand {
+  float:left;
+  width: 20%;
 }
-li:hover{
-    background: #0066CC;
-    color:#fff;
+
+#a {
+  visibility: hidden;
+}
+
+#b {
+  visibility: hidden;
+}
+
+#c {
+  visibility: hidden;
+}
+
+.GIF {
+  float:left;
+  width: 60%;
+  /*background-color: red;*/
+}
+
+#points {
+  float:left;
+  width: 20%;
+  margin-top: 50px;
+  /*background-color: pink;*/
+}
+
+#fuki {
+  float:left;
+  width: 50%;
+  background-color: #FFF;
+  margin-top: 100px;
+  /*font-size: 30px;*/
+}
+
+#HONO {
+  float:left;
+  width: 25%;
+}
+
+.fbox {
+    position: relative;
+    display:inline-block;
+    padding:10px ;
+    margin-top: 100px;
+    text-align:left;
+    background-color:#ffffff;
+    border:5px solid #e4007f;
+    margin: 20px 10px 20px 20px;
+    border-radius: 5px ;
+}
+.fbox:after, .fbox:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.fbox:after {
+    top: 8px;
+    right: -25px;
+    border: 15px solid transparent;
+    border-left: 20px solid #ffffff; /*13px*/
+}
+.fbox:before {
+    top: 13px;
+    right: -25px;
+    border: 10px solid transparent;
+    border-left: 10px solid #e4007f; /*10px*/
+}
+
+.button {
+  font-size: 50px;
+  border-radius: 15px;
+	background-color: #e4007f;
+	border: 2px solid #e4007f;
+	color: #fff;
+	line-height: 50px;
+  margin-left: 200px;
+}
+.button:hover {
+	background-color: #fff;
+	border-color: #e4007f;
+	color: #e4007f;
+}
+
+td {
+  /*margin-top: 100px;*/
+  padding: 30px 0px 20px 50px;
+  font-size: 30px;
+}
+td:nth-child(2) {
+  padding-left: 30px;
+}
+
+.lano {
+  font-family: MyWebFont;
+}
+
+.TTT {
+  font-size: 30px;
+  margin-left: 580px;
+  /*margin-top: 20px;*/
+  background-color: white;
+  border-color: #e4007f;
+}
+
+/*#HONO {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}*/
+#HONO img {
+  transition: 1s;
+}
+#HONO img:hover {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
 }
