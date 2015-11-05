@@ -1,0 +1,61 @@
+.division {
+  float: left;
+  width: 320px;
+  margin-left: 10px;
+}
+
+#serector {
+margin: auto;
+  overflow: hidden;
+}
+
+.characters01 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  /*padding-left: 130px;*/
+}
+
+.characters02 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.umi {
+  padding-bottom: 20px;
+}
+
+#button {
+  width: 280px;
+  background-color: #aaaaaa;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(136,136,136,1);
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+#button :hover {
+  box-shadow: 0 1px 0 rgba(136,136,136,1);
+  margin: 12px auto 8px;
+}
+
+#results {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#answer {
+  text-align: center;
+}
+
+#answer p {
+  /*padding-top: 50px;*/
+  font-size: 50px;
+  font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro';
+
+}
